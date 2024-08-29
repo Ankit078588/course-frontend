@@ -1,0 +1,41 @@
+@font-face {
+  font-family: teamstylebold;
+  src: url('../fontstyle/SFPRODISPLAYBOLD.OTF');
+}
+
+@font-face {
+  font-family: teamstyle;
+  src: url('../fontstyle/SFPRODISPLAYREGULAR.OTF');
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    grid-gap: 20px;
+    align-items: stretch;
+    padding: 2%;
+  }
+  .grid-body{
+    border: none;
+  }
+  .teamrole{
+    font-family: teamstylebold;
+  }
+  .teamname{
+    font-family: teamstylebold;
+  }
+  .teamquote{
+    font-family: teamstyle
+  }
+  .teamheading{
+    font-family: teamstylebold;
+    color: black;
+  }
+
+
+ 
+
+
+ 
+ 
+
+ 

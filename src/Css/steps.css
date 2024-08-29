@@ -1,0 +1,7 @@
+@font-face {
+    font-family: my_font;
+    src: url('../fontstyle/SFPRODISPLAYMEDIUM.OTF');
+}
+.font-text{
+    font-family: my_font;
+}

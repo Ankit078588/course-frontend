@@ -1,0 +1,88 @@
+@font-face {
+    font-family: fontstyle;
+    src: url('../fontstyle/SFPRODISPLAYBOLD.OTF');
+}
+@font-face {
+    font-family: fontstyle1;
+    src: url('../fontstyle/SFPRODISPLAYREGULAR.OTF');
+}
+.heading{
+    font-family: fontstyle;
+}
+.card-title{
+    font-family: fontstyle;
+}
+.card-text{
+    font-family: fontstyle1;
+}
+
+h1 {
+
+    font-weight: 500
+}
+
+/* .image {
+    background-color: transparent;
+} */
+
+.card {
+    border-radius: 20px;
+}
+
+.features {
+    background-color: rgba(244, 238, 238, 0.975);
+}
+
+.feature {
+    Width: 82px;
+    Height: 82px;
+    border-radius: 10px;
+
+
+}
+
+#feature1 {
+    background-color: rgba(34, 197, 94, 1);
+}
+
+#feature2 {
+    background-color: rgba(143, 87, 247, 1);
+}
+
+#feature3 {
+
+    background-color:
+        rgba(246, 119, 97, 1);
+}
+#feature4{
+    background-color: rgba(253, 184, 20, 1);
+}
+.carddesign1:hover{
+    cursor: pointer;
+    background-color: rgba(34, 197, 94, 1);
+    color: white;
+
+}
+.carddesign2:hover{
+    cursor: pointer;
+    background-color: rgba(143, 87, 247, 1);
+    color: white;
+    
+}
+.carddesign3:hover{
+    cursor: pointer;
+    background-color:  rgba(246, 119, 97, 1);
+    color: white;
+   
+}
+.carddesign4:hover{
+    cursor: pointer;
+    background-color: rgba(253, 184, 20, 1);
+    color: white;
+    
+}
+.cardshadow{
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+

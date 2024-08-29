@@ -1,0 +1,7 @@
+@font-face {
+    font-family: secondfont;
+    src: url('../fontstyle/SFPRODISPLAYREGULAR.OTF');
+}
+*{
+    font-family: secondfont;
+}

@@ -1,0 +1,45 @@
+
+@font-face {
+    font-family: namefont;
+    src: url('../fontstyle/AstaginaSignature.otf');
+}
+@font-face {
+    font-family: courrsenamefont;
+    src: url('../fontstyle/MYRIADPRO-BOLD.OTF');
+}
+.background{
+    background-image: url('../Images/academycertificatetemplate.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* This makes the background fixed */
+   
+    width:11.69in;
+    height: 8.27in;
+}
+ .coursename{
+  
+    margin-left: 11%;
+    padding-top: 2.2in;
+    font-size: 40px;
+    font-family: courrsenamefont;
+    color: #003470;
+}
+.username{
+    margin-left: 11%;
+    padding-top: 0.50in;
+    font-family: namefont;
+    font-size: 95px;
+   
+} 
+.date{
+    margin-left: 11%;
+    padding-top: 0.90in;
+   
+    font-size: 25px;
+    font-family: courrsenamefont;
+}
+ .teachername{
+    margin-left: 30%;
+    font-size: 25px;
+    font-family: courrsenamefont;
+           }

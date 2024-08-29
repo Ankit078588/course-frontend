@@ -1,0 +1,41 @@
+
+@font-face {
+    font-family: loginstyle;
+    src: url('../fontstyle/SFPRODISPLAYREGULAR.OTF');
+}
+*{
+    font-family: loginstyle;
+}
+
+#loginform{
+    background-color: rgba(14, 18, 85, 1);
+    border-radius: 0px 20px 20px 0px;
+}
+.register_text{
+    margin-left: auto;
+}
+.loginbutton{
+    border-radius: 10px;
+    font-size:18px;
+   line-height:1.3333333;
+   padding:10px 16px;
+   text-transform: none;
+   background-color: #b43f95;
+   color: white;
+   border: none;
+}
+.loginbutton:hover{
+    background-color: #6d2259;
+    color: white;
+   }
+
+   @media (max-width: 600px) {
+    .loginimage{
+      display: none;
+
+    }
+    #loginform{
+        border-radius: 20px 20px 20px 20px; 
+    }
+  }
+  

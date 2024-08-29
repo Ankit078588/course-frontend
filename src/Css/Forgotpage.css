@@ -1,0 +1,7 @@
+@font-face {
+    font-family: forgotpagestyle;
+    src: url('../fontstyle/SFPRODISPLAYREGULAR.OTF');
+}
+*{
+    font-family: forgotpagestyle;
+}

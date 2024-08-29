@@ -1,0 +1,18 @@
+/* 
+*{
+   
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     */
+    /* cursor:url('./Images/pen2.png'), auto;
+}
+* :hover{
+    cursor:url('./Images/pen2.png'), auto;
+} */
+@font-face {
+    font-family: custom-font;
+    src: url('./fontstyle/SFPRODISPLAYREGULAR.OTF');
+}
+*{
+    font-family: custom-font;
+}
+

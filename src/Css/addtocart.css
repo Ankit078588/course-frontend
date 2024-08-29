@@ -1,0 +1,79 @@
+.shoppingcart{
+    /* background-color:  rgba(244, 238, 238, 0.975); */
+    width: 78%;
+}
+.itemcart{
+    background-color:  rgba(244, 238, 238, 0.975);
+    border-radius: 6px;
+}
+.imgitem{
+    border-radius: 5px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.iconstyle{
+    font-size: 34px;
+    color: #b43f95;
+}
+.payment{
+    background-color: rgb(238, 233, 233);
+}
+#iconpaypal{
+    font-size: 34px;
+    color: rgb(57, 119, 219);
+}
+.chooseupi{
+    background-color: rgb(255, 255, 255);
+}
+#iconvisa{
+    font-size: 30px;
+    /* color: rgb(218, 21, 27); */
+    color: rgb(57, 119, 219);
+   
+}
+.fa-envelope{
+    font-size: 15px;
+}
+.inputfield input{
+    text-indent: 36px;
+    border: none;
+    /* border-radius: 8px; */
+}
+.inputfield{
+    box-shadow: none;
+}
+.numbercard{
+    border-radius: none;
+    
+}
+.inputstyle{
+    background-color: rgb(238, 233, 233);
+}
+.inputmm{
+    background-color: rgb(238, 233, 233);
+    border-radius: 0px;
+    
+}
+#cardinput{
+    border-radius: 8px 8px 0px 0px;
+}
+#monthinput{
+    border-radius: 0px 0px 0px 8px;
+}
+#cvcinput{
+    border-radius: 0px 0px 8px 0px;
+}
+.paynow{
+    border-radius: 10px;
+    font-size:18px;
+   line-height:1.3333333;
+   padding:10px 16px;
+   text-transform: none;
+   background-color: #b43f95;
+   border: none;
+   color: white;
+}
+.paynow:hover{
+    background-color: #6d2259;
+    color: white;
+}

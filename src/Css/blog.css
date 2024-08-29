@@ -1,0 +1,53 @@
+@font-face {
+    font-family: blogstyle ;
+    src: url('../fontstyle/SFPRODISPLAYBOLD.OTF');
+}
+@font-face {
+    font-family: blogparastyle;
+    src: url('../fontstyle/SFPRODISPLAYREGULAR.OTF');
+}
+
+.blogheading{
+    font-family: blogstyle ;
+    color: white;
+
+}
+.cardimage{
+    height: 200px; /* Set a fixed height for the images */
+    width: 100%;
+    object-fit: cover;
+}
+.cardblog{
+    /* margin:10px; */
+  height: 30rem;
+}
+.indicatiorstyle{
+    margin-top: 20px;
+}
+.blogpara{
+    font-family: blogparastyle;
+    font-size: 15px;
+}
+.blogsection{
+    padding-bottom: 6%;
+}
+.blogcontent{
+    text-decoration: none;
+    display: flex;
+   padding-left: 6px;
+}
+.blogcard{
+    background-color: whitesmoke;
+    box-shadow: 0 2px 4px rgb(98, 96, 96);
+    border-radius: 5px;
+}
+/* .prevbutton{
+    margin-left: -10%;
+    
+}
+.nextbutton{
+    margin-right: -10%;
+} */
+
+
+  

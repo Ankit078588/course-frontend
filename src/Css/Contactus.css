@@ -1,0 +1,90 @@
+@font-face {
+    font-family: contactstyle;
+    src: url('../fontstyle/SFPRODISPLAYBOLD.OTF');
+}
+@font-face {
+    font-family: contactregularstyle;
+    src: url('../fontstyle/SFPRODISPLAYREGULAR.OTF');
+}
+.cardtitle{
+    font-family: contactstyle;
+}
+.contact_form{
+    border-radius: 15px;
+    box-shadow: 1px 10px 20px rgb(31, 34, 79);
+    
+}
+
+.cardtext{
+    font-family: contactregularstyle;
+}
+.lablestyle{
+    font-family: contactstyle;
+}
+::placeholder{
+    font-family: contactregularstyle;
+    font-size: 16px;
+}
+.heading{
+    font-family: contactstyle;
+    
+    color: black;
+    font-size: 48px;
+    line-height: 58px;
+    font-weight: 800;
+}
+.contacttitile{
+    height: 15vh;
+}
+.contactdescri{
+    font-family: contactregularstyle;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    opacity: 70%;
+    margin: 0px;
+}
+.touch{
+    font-family: contactregularstyle;
+    font-weight: 700;
+}
+.background_contact{
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    background-image: url('../Images/contactus1.png');
+}
+.contactcard{
+    box-shadow: none;
+    border: none;
+}
+.ratio{
+    width: 50%;
+}
+
+.submitbutton{
+    border-radius: 10px;
+     font-size:18px;
+    line-height:1.3333333;
+    padding:10px 16px;
+    font-family: contactregularstyle;
+    text-transform: none;
+    background-color: #b43f95;
+    color: white;
+}
+#submitbutton:hover{
+    background-color: #6d2259;
+    color: white;
+}
+@media (max-width: 600px) {
+    .background{
+        background-image:none;
+    }
+    .contact_form{
+       
+    }
+}
+
+/* #map{
+    /* background-image: url('../Images/Background.png'); 
+} */

@@ -1,0 +1,80 @@
+
+@font-face {
+  font-family: courseheading ;
+  src: url('../fontstyle/SFPRODISPLAYBOLD.OTF');
+}
+@font-face {
+  font-family: buttostyle;
+  src: url('../fontstyle/SFPRODISPLAYREGULAR.OTF');
+}
+
+#mostcourse{
+font-family: courseheading ;
+}
+.learnmore{
+  border-radius: 10px;
+  font-size:14px;
+  line-height:1.3333333;
+  padding:10px 16px;
+  margin:5px;
+  font-family: buttostyle;
+  text-transform: none;
+   background-color: #b43f95;
+   color: white;
+   border: none;
+}
+.learnmore:hover{
+  color: white;
+  background-color: #6d2259;
+  border: none;
+}
+.mostpopular{
+  background-color: rgba(244, 238, 238, 0.975);
+}
+.teachername{
+  font-family: buttostyle;
+  font-weight: 600;
+  font-size:14px;
+}
+
+.cardcontainer{
+  width: 85%;
+}
+
+  
+  .cardbody {
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+  }
+  
+  .grid > article img {
+    max-width: 100%;
+  }
+  
+  .grid .text {
+    padding: 10px;
+    color: black;
+  }
+  
+  p{
+    color: black;
+   
+  }
+  h5{
+    color: black;
+   
+  }
+  .checked{
+    color:rgb(239, 239, 15);
+    }
+    .notchecked{
+      color: rgba(14, 18, 85, 1);
+    }
+    @media (max-width: 600px) {
+      .cardcontainer{
+        width: 87%;
+  
+      }
+      
+  }
+  

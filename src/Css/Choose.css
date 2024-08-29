@@ -1,0 +1,37 @@
+@font-face {
+    font-family: headingstyle;
+    src: url('../fontstyle/SFPRODISPLAYBOLD.OTF');
+}
+@font-face {
+    font-family: parastyle;
+    src: url('../fontstyle/SFPRODISPLAYREGULAR.OTF');
+}
+.chooseheading{
+    font-family: headingstyle;
+    color: black;
+}
+.point{
+    font-family: headingstyle;
+    color: black;
+}
+.paragraph{
+    font-family: parastyle;
+}
+
+#icon1{
+    color: rgb(32, 142, 142);
+    font-size: 30px;
+}
+#icon2{
+    color: rgb(186, 40, 215);
+    font-size: 30px;
+}
+#icon3{
+    color: rgb(233, 226, 43);
+    font-size: 30px;
+}
+#icon4{
+    color: rgb(11, 183, 43);
+    font-size: 30px;
+}
+

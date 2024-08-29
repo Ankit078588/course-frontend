@@ -1,0 +1,12 @@
+.successcard{
+    background-color: rgb(219, 214, 209);
+    border-color: rgb(230, 219, 219);
+}
+.paymentcontainer{
+    width: 48%;
+}
+ @media screen and (max-width: 640px) {
+        .paymentcontainer {
+            width: 90%
+        }
+      } 

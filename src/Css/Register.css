@@ -1,0 +1,79 @@
+@font-face {
+	font-family: formtyle;
+	src: url('../fontstyle/SFPRODISPLAYREGULAR.OTF');
+}
+*{
+	font-family: formtyle;
+}
+.inputform{
+
+	font-family: formtyle;
+	
+}
+.redstar{
+	font-size: 9px;
+	color: red
+	
+}
+.form-select{
+	font-family: formtyle;
+}
+.img-fluid{
+    height:"auto"
+}
+:root{
+	font-family: formtyle;
+}
+.signupbutton{
+	border-radius: 10px;
+    font-size:18px;
+   line-height:1.3333333;
+   padding:10px 16px;
+   text-transform: none;
+   background-color: #b43f95;
+   color: white;
+   border: none;
+}
+.signupbutton:hover{
+    background-color: #6d2259;
+    color: white;
+   }
+.formcontainer{
+	 width: 65%;
+	
+	 padding: 2%;
+	 background-color: rgb(14, 18, 85);
+	 border-radius: 12px;
+}
+.custom-file-button {
+	input[type="file"] {
+		margin-left: -2px !important;
+
+		&::-webkit-file-upload-button {
+			display: none;
+		}
+		&::file-selector-button {
+			display: none;
+		}
+	}
+}
+
+
+@media (max-width: 600px) {
+    .formcontainer{
+		width: 95%;
+    }
+}
+/* offlireg-------- */
+.paybutton{
+	height: 56%;
+}
+#courseselect{
+	height: 55%;
+}
+.paybutton:focus{
+	background-color:#0275d8;
+	border: none;
+	color: white;
+
+}

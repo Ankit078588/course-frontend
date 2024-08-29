@@ -1,0 +1,31 @@
+@font-face {
+    font-family: loginstyle;
+    src: url('../fontstyle/SFPRODISPLAYREGULAR.OTF');
+}
+
+
+.checkoutform{
+    /* background-color: rgba(244, 238, 238, 0.975); */
+    background-color: rgba(14, 18, 85, 1);
+    border-radius: 6px;
+    color: white;
+}
+.checkoutbutton{
+    border-radius: 10px;
+    font-size:18px;
+   line-height:1.3333333;
+   padding:10px 16px;
+   text-transform: none;
+   background-color: #b43f95;
+   color: white;
+   border: none;
+}
+.checkoutbutton:hover{
+    background-color: #6d2259;
+    color: white;
+   }
+.checkoutbutton :active{
+    background-color: #4f1843;
+    color: white;
+   
+}   
