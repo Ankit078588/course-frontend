@@ -3,7 +3,7 @@ import Sidenavbar from "./Userdashboard/Sidenavbar"
 import '../Css/Userdashboard.css'
 
 
-import Dashboard from '../Components/Userdashboard/Dashboard'
+import Dashboard from './Userdashboard/Dashboard'
 function Userdashboard() {
   const [currentContent, setCurrentContent] = useState('home');
 
