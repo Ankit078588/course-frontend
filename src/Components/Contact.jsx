@@ -10,7 +10,11 @@ import link from '../Images/linkdln.png';
 import axios from 'axios';
 import swal from 'sweetalert';
 import { useState } from 'react';
+<<<<<<< HEAD
 import { Contact_URL } from './Localhost';
+=======
+
+>>>>>>> upstream/master
 
 
 
