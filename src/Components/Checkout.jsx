@@ -82,7 +82,7 @@ else{
                         order_id: res.data.order.id, 
                         handler: function (response) {
                             // Call your backend to verify the payment and store data
-                            axios.post(Auth_URL+'/paymentverification_students', {
+                            axios.post(ROOT_URL+'/api/auth/paymentverification_students', {
                               razorpay_order_id: response.razorpay_order_id,
                               razorpay_payment_id: response.razorpay_payment_id,
                               razorpay_signature: response.razorpay_signature,
@@ -149,7 +149,7 @@ else{
                 </p>
                 <div className="row ms-1">{course_details.total_video} Videos</div>
               </div>
-              <div className="col-3 text-center"><span id="totalamount">{course_details.course_price}</span>/-</div>
+              <div className="col-3 text-center"><span className="totalamount">Rs.</span><span id="totalamount" className="totalamount">{course_details.course_price}</span></div>
             </div>
               
             ) : (
@@ -177,7 +177,7 @@ else{
                   <input
                     type="text"
                     className="form-control"
-                    placeholder="1234567890"
+                    placeholder="Enter phone number"
                     aria-label="Phone no"
                     id="phone"
                     name="phone"

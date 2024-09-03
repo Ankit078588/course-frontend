@@ -10,6 +10,9 @@
     border-radius: 6px;
     color: white;
 }
+.totalamount{
+    font-size:26px;
+}
 .checkoutbutton{
     border-radius: 10px;
     font-size:18px;

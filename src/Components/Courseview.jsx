@@ -93,7 +93,7 @@ const Courseview = () => {
       } catch (err) {
         console.error('Error saving chapter completion', err);
       }
-    alert('Video has ended');
+    // alert('Video has ended');
 
   }
 

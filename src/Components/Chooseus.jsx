@@ -22,7 +22,7 @@ Attracting students with expert mentorship, abundant resources, interactive lear
                             </div>
                             
                             <div className='col-lg-5'>
-                                <span className='fw-bold point'>60k people joined</span>
+                                <span className='fw-bold point'>600 people joined</span>
                                
                             </div>
                         </div>
@@ -32,7 +32,7 @@ Attracting students with expert mentorship, abundant resources, interactive lear
                             </div>
                             
                             <div className='col-lg-5'>
-                                <span className='fw-bold point'> 50+ upcoming courses</span><br/>
+                                <span className='fw-bold point'> 20+ upcoming courses</span><br/>
                               
                             </div>
                         </div>
@@ -52,7 +52,7 @@ Attracting students with expert mentorship, abundant resources, interactive lear
                             </div>
                             
                             <div className='col-lg-5'>
-                                <span className='fw-bold point'>5+ experienced teachers</span><br/>
+                                <span className='fw-bold point'>40+ experienced teachers</span><br/>
                                
                             </div>
                         </div>
